@@ -1,16 +1,52 @@
-lab 1 tasks:
-I-Make function that write "welcome to my page" 6 timesusing hl to h6 header sizes using one line
-2- Make a function that takes today's temperature as a parameter, prints: "HOT" if the entered temperature are more than or equals 30 and "Cold" if it's less than 30 (use ternary conditional operator).
-3- Write a script that takes from the user n values and returns their sum, stop receiving values from user when he enters O or sum exceeds 100, check that the enterd data is numeric and inform the user with the total sum of he entered values in console.
-4- On your page, show alert for the user that say "Welcome to my site", then show him prompt ask him to enter his name and write to the page " welcome + his name". (Remark what happen to the home page after writing welcome page).
-5- Create a function that accepts three numerical values x, y and z. 
-The function should check if x is divisible by y only or z only or both y and z. 
-Example: If user entered values are 10, 2, and 5 then the output will be: 10 is divisible by both 2 and 5. 
-If user entered values are IO, 2, and 4 then the output will be: 10 is divisible by 2 only. 
-If user entered values are 10, 5, and 4 then the output will be: 10 is divisible by 5 only.
-6- On contact page prompt user to enter his name, make sure that name is string, and let the user enter his birth year and make sure that it is a number, and it is less than 2010, and then calculate his age. For each prompt if user
-input valid show him next prompt, if not valid show him the same prompt again until user enters it correctly (use loops). And after validating user input, write all user
-input on the page in that format:
-Name: ahmed
-Birth year: 1981
-Age: 30
+# Lab 1 - JavaScript Exercises
+
+This repository contains solutions for Lab 1 tasks in JavaScript. The tasks focus on functions, conditional statements, loops, user input validation, and basic DOM manipulation.
+
+---
+
+## 📝 **Tasks Overview**
+
+### **Task 1: Display Welcome Message in Headers**
+- Create a function that writes `"Welcome to my page"` **six times** using `<h1>` to `<h6>` headers **in one line**.
+
+### **Task 2: Temperature Check**
+- Create a function that takes **today's temperature** as a parameter.
+- Prints:
+  - `"HOT"` if temperature ≥ 30  
+  - `"COLD"` if temperature < 30  
+- Use the **ternary conditional operator**.
+
+### **Task 3: Sum User Inputs**
+- Write a script that takes **n values from the user**.
+- Stops when:
+  - The user enters `0`  
+  - OR the sum exceeds `100`
+- Ensure **input is numeric**.
+- Display the **total sum** in the console.
+
+### **Task 4: Welcome User**
+- Show an **alert**: `"Welcome to my site"`.
+- Prompt the user to **enter their name**.
+- Write `"Welcome + user name"` to the page.
+- **Remark**: Using `document.write()` after the page loads **overwrites the home page content**.
+
+### **Task 5: Divisibility Check**
+- Create a function that accepts three numbers: `x`, `y`, `z`.
+- Check if `x` is divisible by:
+  - `y` only  
+  - `z` only  
+  - Both `y` and `z`
+- Example outputs:
+  - `10, 2, 5` → "10 is divisible by both 2 and 5"
+  - `10, 2, 4` → "10 is divisible by 2 only"
+  - `10, 5, 4` → "10 is divisible by 5 only"
+
+### **Task 6: Contact Page User Input**
+- Prompt the user for their **name**:
+  - Validate that it is a string.
+- Prompt for **birth year**:
+  - Validate that it is a number and less than `2010`.
+- Calculate the user's **age**.
+- If input is invalid, **repeat prompt until correct**.
+- Display the user information on the page in this format:
+
